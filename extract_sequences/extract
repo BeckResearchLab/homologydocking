@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for gene in `cat $1`
+do
+		echo "SELECT '$gene', sequence FROM sequences WHERE SUBSTRING_INDEX(description, ' ', 1) = '$gene';" | mysql -s -h mysql homologydocking | awk '{ printf(">%s\n%s\n", $1, $2); }' > ../$2/$gene.fasta
+done

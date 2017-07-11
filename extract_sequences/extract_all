@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./extract ../upregulated/upregulated.txt upregulated
+./extract ../downregulated/downregulated.txt downregulated

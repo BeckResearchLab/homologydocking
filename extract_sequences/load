@@ -1,0 +1,3 @@
+#!/bin/bash
+
+awk -f fa2sql.awk -v create_table=1 ../2574180448/2574180448.genes.faa | mysql -h mysql homologydocking

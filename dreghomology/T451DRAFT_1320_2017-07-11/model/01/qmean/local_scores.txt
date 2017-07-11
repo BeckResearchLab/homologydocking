@@ -1,0 +1,78 @@
+# This file contains local scores calculated by the QMEAN scoring function.
+# 
+# References:
+# 
+#   Benkert, P., Tosatto, S.C.E. and Schomburg, D. (2008). "QMEAN: A comprehensive
+#   scoring function for model quality assessment." Proteins: Structure, Function,
+#   and Bioinformatics, 71(1):261-277.
+# 
+# 
+#   Benkert, P., Biasini, M. and Schwede, T. (2011). "Toward the estimation of the
+#   absolute quality of individual protein structure models." Bioinformatics
+#   doi: 10.1093/bioinformatics/btq662
+# 
+# Description of columns:
+# 
+#   chain         Chainname as written in the PDB file
+#   rindex        Zero-base index of residue in the chain
+#   rnum          Residue number as written in the PDB file
+#   rname         Residue three-letter-code, e.g. ARG
+# 
+#   all_atom      Normalized all-atom potential energy of the residue calculated from the
+#                 short-range statistical potentials.
+# 
+#   cbeta         Normalized cbeta potential energy of the residue calculated from the
+#                 short-range statistical potentials.
+# 
+#   solvation     Normalized solvation potential energy of the residue calculated from
+#                 the short-range statistical potentials.
+# 
+#   torsion       Torsion energy of the residue
+# 
+#   exposed       Relative solvent accessibility, calculated by dividing the maximally
+#                 accessible surface area (ASA) of a residue by the observed value.
+#                 ASA values are calculated by the DSSP program.
+# 
+#   ss_agreement  Agreement score of secondary structure predicted by psipred, with
+#                 the observed seccondary structure observed in the model (DSSP).
+# 
+#   acc_agreement Agreement score of burial status predicted by accpro, with the
+#                 the observed burial status in the structure (DSSP).
+# 
+#   dist_const    Score predicting correctness of pairwise residue distances in the model.
+#                 Distance constraints are obtained from distances between residue pairs
+#                 in homologous templates.
+# 
+#   QMEAN         Predicted local quality. A value describing the expected local
+#                 similarity to the target structure with a range of [0,1]. 
+# 
+#   QMEANDisCo    Predicted local quality by combining QMEAN, dist_const and sequence 
+#                 based features using a random forest. The range remains [0,1].  
+# 
+chain[string] rindex[int] rnum[int] rname[string] all_atom[float] cbeta[float] solvation[float] torsion[float] exposed[float] ss_agreement[float] acc_agreement[float] dist_const[float] QMEAN[float] QMEANDisCo[float]
+A 0 6 ILE 0.04426189884543419 0.14083434641361237 2.0220413208007812 nan 0.6781488656997681 -2.050812005996704 0.15412962436676025 nan 0.0 nan
+A 1 7 LEU 0.024074353277683258 0.12056691199541092 1.9720120429992676 nan 0.6633078455924988 -1.9774760007858276 0.24440419673919678 nan 0.0 nan
+A 2 8 ALA nan nan 1.717484712600708 1.566819429397583 0.6918267011642456 -1.6766903400421143 0.16776011884212494 nan 0.0 nan
+A 3 9 LEU nan nan 1.8655717372894287 1.9119889736175537 0.6731173396110535 -1.8327393531799316 0.23226100206375122 nan 0.0 nan
+A 4 10 ALA 0.04440733790397644 0.14668220281600952 2.2647252082824707 2.3963990211486816 0.6462061405181885 -2.277644395828247 0.419696182012558 nan 0.0 nan
+A 5 11 ILE 0.03156030923128128 0.1134551540017128 3.004385232925415 2.6820170879364014 0.6657811999320984 -2.803837299346924 0.5166774988174438 nan 0.0 nan
+A 6 12 LEU 0.0699857622385025 0.11348748952150345 4.2085771560668945 3.8641104698181152 0.7377661466598511 -3.3132712841033936 0.2990136742591858 nan 0.0 nan
+A 7 13 SER nan nan 4.931447505950928 4.999068737030029 0.769780695438385 -3.3224384784698486 0.03774518147110939 nan 0.0 nan
+A 8 14 VAL nan nan 4.832601070404053 5.342005729675293 0.8273361921310425 -2.733302593231201 0.026150114834308624 nan 0.0 nan
+A 9 15 LEU nan nan 4.2819108963012695 5.20955753326416 0.8427125215530396 -1.470706820487976 0.21635733544826508 nan 0.0 nan
+A 10 16 GLU nan nan 3.038935899734497 4.863099098205566 0.7622389197349548 -0.31104856729507446 0.4944305717945099 nan 0.0 nan
+A 11 17 ILE nan nan 1.7295575141906738 3.5813722610473633 0.6982248425483704 0.32817667722702026 0.26034224033355713 nan 0.0 nan
+A 12 18 SER nan nan 1.4392364025115967 2.4944326877593994 0.6523659825325012 0.6099377870559692 0.27554693818092346 nan 0.0 nan
+A 13 19 PRO nan nan 1.3846840858459473 3.114825487136841 0.674522340297699 0.6676492094993591 0.39543649554252625 nan 0.0 nan
+A 14 20 ILE nan nan 1.221530795097351 3.017702102661133 0.6982723474502563 0.45368510484695435 0.22295017540454865 nan 0.0 nan
+A 15 21 PRO nan nan 1.3152272701263428 2.0812387466430664 0.681812584400177 -0.1912899911403656 0.059707093983888626 nan 0.0 nan
+A 16 22 ILE nan nan 1.5250294208526611 1.4167540073394775 0.652293860912323 -1.2469156980514526 0.011159989051520824 nan 0.0 nan
+A 17 23 THR 0.007287145592272282 nan 1.4957280158996582 1.4226527214050293 0.6172327399253845 -2.3546831607818604 0.0 nan 0.0 nan
+A 18 24 PRO -0.00024340208619832993 0.005075921304523945 1.3890397548675537 1.7061580419540405 0.5917669534683228 -2.9949233531951904 0.0 nan 0.0 nan
+A 19 25 ILE -0.017759105190634727 0.023790575563907623 1.362732172012329 2.304806709289551 0.5901362299919128 -3.293414354324341 0.0 nan 0.0 nan
+A 20 26 LEU -0.025279425084590912 0.03504388406872749 1.2635841369628906 2.987712860107422 0.5827448964118958 -3.3727447986602783 0.0 nan 0.0 nan
+A 21 27 LEU -0.034630827605724335 0.04619155824184418 1.3046460151672363 3.5304453372955322 0.5957400798797607 -3.4040586948394775 0.0 nan 0.0 nan
+A 22 28 ILE -0.03660617768764496 nan 1.3741066455841064 3.6781973838806152 0.6130933165550232 -3.4040589332580566 0.0 nan 0.0 nan
+A 23 29 TYR -0.03537312150001526 0.04083819314837456 1.5145655870437622 3.345075845718384 0.6376355290412903 -3.4040586948394775 0.0 nan 0.0 nan
+A 24 30 VAL -0.046876758337020874 0.038589634001255035 1.8073967695236206 nan 0.6722868084907532 -3.4040586948394775 0.0 nan 0.10612239177585236 nan
+A 25 31 VAL -0.05574246868491173 0.04394950345158577 2.2045233249664307 nan 0.7241377234458923 -3.4040584564208984 0.0 nan 0.0758356952558304 nan

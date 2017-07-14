@@ -1,0 +1,22 @@
+# This file contains global scores calculated by the QMEAN scoring function.
+# 
+# References:
+# 
+#   Benkert, P., Tosatto, S.C.E. and Schomburg, D. (2008). "QMEAN: A comprehensive
+#   scoring function for model quality assessment." Proteins: Structure, Function,
+#   and Bioinformatics, 71(1):261-277.
+# 
+# 
+#   Benkert, P., Biasini, M. and Schwede, T. (2011). "Toward the estimation of the
+#   absolute quality of individual protein structure models." Bioinformatics
+#   doi: 10.1093/bioinformatics/btq662
+# 
+name[string] norm[float] z_score[float]
+qmean4 0.509475619120527 -4.3585394221681355
+qmean6 0.4349519714637621 -5.1425558974846775
+all_atom -0.018452841534936607 -1.069282264517948
+cbeta -0.0013683905575660137 -1.765162495796845
+solvation -0.5607434596593787 -1.5079663725953922
+torsion 0.31669339209269637 -3.5815388157245307
+ss_agreement 0.2427553043859761 -2.2727191435419685
+acc_agreement 0.4024390243902439 -3.36866759840599

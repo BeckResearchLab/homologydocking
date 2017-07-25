@@ -9,3 +9,6 @@ See this manuscript for more information:
 
 Sharable Link to Homology Structure Statistics:
 https://docs.google.com/a/baldwinschool.org/spreadsheets/d/1VRb7BypAisn903an2tUbuq6KGpAWk2VmczbScoT_XiE/edit?usp=sharing
+
+Running LeDock from Command Line:
+/Applications/LeDock.app/Contents/MacOS/LeDock

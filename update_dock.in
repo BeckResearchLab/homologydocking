@@ -1,0 +1,15 @@
+#!/bin/bash
+
+dock_ins=`find ./ -name 'dock.in'`
+tmpfile=/tmp/dock.in.tmp
+
+for dock_in in $dock_ins
+do
+	echo $dock_in
+	awk 'BEGIN { printf("Receptor\npro.pdb\n\n"); } { if ($1 != "END") print $0 } END { printf("Ligands list\nligands.list\n"); }' $dock_in > $tmpfile
+	ligand_list=`echo $dock_in | sed "s/dock.in/ligands.list/g"`
+	ligand=`echo $dock_in | sed "s/dock.in/zinc_83315.mol2/g"`
+	echo "zinc_83315.mol2" > $ligand_list
+	cp zinc_83315.mol2 $ligand
+	mv $tmpfile $dock_in
+done

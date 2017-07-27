@@ -1,0 +1,13 @@
+#!/bin/bash
+
+dock_ins=`find ./ -name 'dock.in'`
+
+rm ledock.jobs
+
+for dock_in in $dock_ins
+do
+	dir=`dirname $dock_in`
+	echo "(cd $dir; ledock_mac dock.in; ledock_mac -spli *.dok)" >> ledock.jobs
+done
+
+

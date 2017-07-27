@@ -1,3 +1,6 @@
+Receptor
+pro.pdb
+
 RMSD
 1.0
 
@@ -9,4 +12,5 @@ Model 1
 Number of binding poses
 20
 
-END
+Ligands list
+ligands.list

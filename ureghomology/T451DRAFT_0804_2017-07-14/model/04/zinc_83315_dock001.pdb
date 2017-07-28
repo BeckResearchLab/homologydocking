@@ -1,0 +1,30 @@
+REMARK Docking time: 0.3 min
+REMARK Cluster   1 of Poses:  3 Score: -4.16 kcal/mol
+ATOM      1  C1  LIG     0      -3.539  -0.638  -1.167
+ATOM      2  C2  LIG     0      -4.742  -1.121  -0.669
+ATOM      3  C3  LIG     0      -4.927  -1.280   0.687
+ATOM      4  C4  LIG     0      -3.900  -0.954   1.568
+ATOM      5  C5  LIG     0      -2.684  -0.465   1.058
+ATOM      6  C6  LIG     0      -2.518  -0.312  -0.320
+ATOM      7  C7  LIG     0      -1.827  -0.221   2.220
+ATOM      8  C8  LIG     0      -2.536  -0.558   3.309
+ATOM      9  N1  LIG     0      -3.778  -0.998   2.938
+ATOM     10  H1  LIG     0      -4.468  -1.297   3.550
+ATOM     11  C9  LIG     0      -0.415   0.307   2.198
+ATOM     12  C10 LIG     0       0.543  -0.815   1.793
+ATOM     13  H2  LIG     0      -0.017  -1.740   1.660
+ATOM     14  C11 LIG     0       1.226  -0.450   0.500
+ATOM     15  O1  LIG     0       2.396  -0.108   0.504
+ATOM     16  O2  LIG     0       0.608  -0.497  -0.550
+ATOM     17  N2  LIG     0       1.552  -0.999   2.845
+ATOM     18  H3  LIG     0      -3.409  -0.524  -2.233
+ATOM     19  H4  LIG     0      -5.540  -1.375  -1.351
+ATOM     20  H5  LIG     0      -5.866  -1.656   1.065
+ATOM     21  H6  LIG     0      -1.585   0.063  -0.715
+ATOM     22  H7  LIG     0      -2.180  -0.492   4.326
+ATOM     23  H8  LIG     0      -0.344   1.123   1.478
+ATOM     24  H9  LIG     0      -0.149   0.673   3.189
+ATOM     25  H10 LIG     0       2.168  -0.200   2.864
+ATOM     26  H11 LIG     0       1.093  -1.092   3.738
+ATOM     27  H12 LIG     0       2.088  -1.832   2.654
+END

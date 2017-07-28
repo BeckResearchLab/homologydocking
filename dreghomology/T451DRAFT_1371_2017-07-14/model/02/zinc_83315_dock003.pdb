@@ -1,0 +1,29 @@
+REMARK Cluster   3 of Poses:  2 Score: -4.27 kcal/mol
+ATOM      1  C1  LIG     0       4.861   5.546   6.464
+ATOM      2  C2  LIG     0       4.980   5.330   5.097
+ATOM      3  C3  LIG     0       4.665   4.106   4.550
+ATOM      4  C4  LIG     0       4.223   3.074   5.372
+ATOM      5  C5  LIG     0       4.105   3.298   6.756
+ATOM      6  C6  LIG     0       4.429   4.547   7.289
+ATOM      7  C7  LIG     0       3.624   2.039   7.330
+ATOM      8  C8  LIG     0       3.487   1.172   6.315
+ATOM      9  N1  LIG     0       3.840   1.772   5.137
+ATOM     10  H1  LIG     0       3.824   1.345   4.267
+ATOM     11  C9  LIG     0       3.339   1.769   8.785
+ATOM     12  C10 LIG     0       2.447   0.532   8.908
+ATOM     13  H2  LIG     0       2.917  -0.308   8.397
+ATOM     14  C11 LIG     0       2.258   0.192  10.364
+ATOM     15  O1  LIG     0       1.312   0.652  10.980
+ATOM     16  O2  LIG     0       3.052  -0.543  10.927
+ATOM     17  N2  LIG     0       1.140   0.808   8.297
+ATOM     18  H3  LIG     0       5.116   6.511   6.877
+ATOM     19  H4  LIG     0       5.323   6.129   4.457
+ATOM     20  H5  LIG     0       4.760   3.947   3.486
+ATOM     21  H6  LIG     0       4.339   4.723   8.351
+ATOM     22  H7  LIG     0       3.148   0.151   6.413
+ATOM     23  H8  LIG     0       4.277   1.595   9.313
+ATOM     24  H9  LIG     0       2.830   2.629   9.221
+ATOM     25  H10 LIG     0       1.005   1.806   8.227
+ATOM     26  H11 LIG     0       1.107   0.399   7.375
+ATOM     27  H12 LIG     0       0.410   0.409   8.868
+END
